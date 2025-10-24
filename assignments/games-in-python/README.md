@@ -1,44 +1,39 @@
 
-# 📘 Assignment: Games in Python – Hangman
+# 📘 Assignment: Games in Python
 
-## 🎯 Objective
+## 🎯 Objetivo
 
-Build a classic Hangman game in Python! Você irá praticar manipulação de strings, laços, condicionais e entrada de usuário enquanto cria um jogo divertido de adivinhação de palavras.
+Create a classic Hangman word-guessing game where players try to discover a hidden word by guessing letters one at a time. You'll practice string manipulation, loops, conditionals, and user input while building an engaging interactive game.
 
-## 📝 Tasks
+## 📝 Tarefas
 
-### 🛠️ Task 1: Setup & Word List
+### 🛠️ Setup & Word List
 
 #### Description
 
-Crie uma lista de palavras e configure a estrutura básica do jogo.
+Create a word list and set up the basic game structure with proper initialization and user instructions.
 
 #### Requirements
 
 Completed program should:
 
-- Definir uma lista de pelo menos 5 palavras para o jogo
-- Selecionar uma palavra aleatória para o jogador adivinhar
-- Exibir instruções iniciais para o usuário
+- Define a list of at least 5 different words for the game
+- Randomly select a word for the player to guess using `random.choice()`
+- Display clear game instructions and rules to the user
+- Initialize game variables (attempts remaining, guessed letters, etc.)
 
-### 🛠️ Task 2: Implement Hangman Logic
+### 🛠️ Implement Game Logic
 
 #### Description
 
-Implemente a lógica principal do jogo, permitindo que o usuário adivinhe letras e acompanhe o progresso.
+Build the core Hangman gameplay mechanics with proper input validation and game state tracking.
 
 #### Requirements
 
 Completed program should:
 
-- Mostrar o progresso da palavra usando _ para letras não adivinhadas
-- Aceitar palpites de letras do usuário
-- Informar se o palpite está correto ou não
-- Rastrear e exibir o número de tentativas restantes
-- Finalizar o jogo com mensagem de vitória ou derrota
-
----
-
-**Skills practiced:** Manipulação de strings, loops, condicionais, seleção aleatória
-
-**Dica:** Use a função `random.choice()` para selecionar a palavra!
+- Display word progress using underscores (_) for unguessed letters
+- Accept and validate single letter guesses from the user
+- Provide feedback whether each guess is correct or incorrect
+- Track and display the number of incorrect attempts remaining
+- End the game with appropriate win/lose messages and reveal the word
